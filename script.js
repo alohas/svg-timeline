@@ -46,12 +46,29 @@ function addingEvents() {
   for (let item of circles) {
     item.addEventListener("click", e => {
       popUpShow(item.id);
-      console.log(e.target.cx.baseVal.value);
-      console.log(e.target.cy.baseVal.value);
-      console.log(`${labelHeight}, ${labelWidth}`);
 
-      console.log();
-      if (false == true) {
+      let sizeSVGArea = Math.round(e.target.cx.baseVal.value + xdif);
+      let labelSize = document.querySelector("#infobox_template > g > rect")
+        .width.baseVal.value;
+      let viewBoxSize = document.querySelector("#Layer_1").viewBox.baseVal
+        .width;
+
+      if (sizeSVGArea + labelSize > viewBoxSize) {
+        document.querySelector("#infoline > use").x.baseVal.value =
+          viewBoxSize - labelSize - 50;
+
+        document.querySelector("#infoline > line").x1.baseVal.value =
+          e.target.cx.baseVal.value;
+
+        document.querySelector("#infoline > line").y1.baseVal.value =
+          e.target.cy.baseVal.value;
+
+        document.querySelector("#infoline > line").y2.baseVal.value =
+          document.querySelector("#infoline > use").y.baseVal.value +
+          parseInt(labelHeight);
+
+        document.querySelector("#infoline > line").x2.baseVal.value =
+          document.querySelector("#infoline > use").x.baseVal.value + labelSize;
       } else {
         document.querySelector("#infoline > line").x1.baseVal.value =
           e.target.cx.baseVal.value;
