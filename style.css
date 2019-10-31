@@ -1,0 +1,11 @@
+.infoboxContainer {
+  display: none;
+}
+
+#infoboxes {
+  display: none;
+}
+
+#clickables circle {
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <g id="infoboxes">
+    <g id="infoline">
+      <line x1="391" y1="712" x2="445" y2="507" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+      <use href="#infobox_template" x="443" y="207"></use>
+    </g>
+  </g>
+
+  <path id="timeline" d="M57.5,933.5s564.6-464.13,898-353c135,45,176,86,336,243,193.3,189.67,287,83,346,23,60-61,109-114,155-140s111-27,111-27" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 5px"/>
+  <g id="bullets">
+    <g>
+      <circle cx="174.06" cy="846.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="391.06" cy="711.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="625.06" cy="600.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="849.06" cy="562.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="1090.06" cy="639.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="1271.06" cy="799.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="1480.06" cy="926.82" r="26.58" style="fill: #dff3ff"/>
+      <circle cx="1703.06" cy="781.82" r="26.58" style="fill: #dff3ff"/>
+    </g>
+    <g id="clickables">
+      <circle id="1" class="movie" cx="174.06" cy="846.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="2" class="movie" cx="391.06" cy="711.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="3" class="movie" cx="625.06" cy="600.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="4" class="movie" cx="849.06" cy="562.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="5" class="movie" cx="1090.06" cy="639.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="6" class="movie" cx="1271.06" cy="799.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="7" class="movie" cx="1480.06" cy="926.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+      <circle id="8" class="movie" cx="1703.06" cy="781.82" r="26.58" style="fill: #fcf6e8;stroke: #000;stroke-miterlimit: 10;stroke-width: 8px"/>
+    </g>
+    <g>
+      <path d="M174.06,824.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M391.06,689.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M625.06,578.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M849.06,540.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M1090.06,617.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M1271.06,777.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M1480.06,904.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+      <path d="M1703.06,759.23a22.59,22.59,0,1,1-22.58,22.59,22.61,22.61,0,0,1,22.58-22.59m0-4a26.59,26.59,0,1,0,26.59,26.59,26.59,26.59,0,0,0-26.59-26.59Z"/>
+    </g>
+  </g>
+</svg>
