@@ -5,7 +5,7 @@
       <path d="M836,4V302H4V4H836m4-4H0V306H840V0Z"/>
     </g>
     <text id="title" transform="translate(213.78 45.1)" style="font-size: 36px;font-family: FootlightMTLight, Footlight MT Light">Harry Potter and the Prisoner of Azkaban</text>
-    <text id="danish_title" data-name="danish title" transform="translate(213.78 69.1)" style="font-size: 18px;fill: gray;font-family: FootlightMTLight, Footlight MT Light">Harry Potter og fangen fra Azkaban</text>
+    <text id="danish_title" data-name="danish title" transform="translate(213.78 69.1)" style="font-size: 18px;fill: gray;font-family: FootlightMTLight, Footlight MT Light">Harry Potter og fangen fra Azkaban</tspan></text>
     <text id="release_date" data-name="release date" transform="translate(726.78 79.1)" style="font-size: 36px;fill: #999;font-family: FootlightMTLight, Footlight MT Light">2004</text>
     <text id="duration" transform="translate(213.78 118.1)" style="font-size: 18px;fill: #b3b3b3;font-family: Gadugi">2h 22min</text>
     <text transform="translate(213.78 158.1)" style="font-size: 18px;fill: gray;font-family: Gadugi">Directed by</text>

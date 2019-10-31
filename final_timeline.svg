@@ -1,8 +1,8 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1920 880">
   <g id="infoboxes">
     <g id="infoline">
       <line x1="391" y1="712" x2="445" y2="507" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
-      <use href="#infobox_template" x="443" y="207"></use>
+      <use href="#infobox_template" x="443" y="200"></use>
     </g>
   </g>
 

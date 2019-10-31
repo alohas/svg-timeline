@@ -1,6 +1,10 @@
 "use strict";
 
 let movieData = [];
+let xdif;
+let ydif;
+let labelHeight;
+let labelWidth;
 
 function loadJSON() {
   fetch("potterfilms.json")
@@ -17,12 +21,23 @@ function loadSVG() {
     .then(svg => {
       document.querySelector("div.timeline").innerHTML = svg;
       addingEvents();
+      ydif =
+        document.querySelector("#infoline > line").y1.baseVal.value -
+        document.querySelector("#infoline > line").y2.baseVal.value;
+      xdif =
+        document.querySelector("#infoline > line").x2.baseVal.value -
+        document.querySelector("#infoline > line").x1.baseVal.value;
     });
 
   fetch("final_infobox.svg")
     .then(e => e.text())
     .then(svg => {
       document.querySelector("div.infoboxContainer").innerHTML = svg;
+      let labelStyles = getComputedStyle(
+        document.querySelector("#infobox_template > g > rect")
+      );
+      labelHeight = labelStyles.height;
+      labelWidth = labelStyles.width;
     });
 }
 
@@ -33,6 +48,28 @@ function addingEvents() {
       popUpShow(item.id);
       console.log(e.target.cx.baseVal.value);
       console.log(e.target.cy.baseVal.value);
+      console.log(`${labelHeight}, ${labelWidth}`);
+
+      console.log();
+      if (false == true) {
+      } else {
+        document.querySelector("#infoline > line").x1.baseVal.value =
+          e.target.cx.baseVal.value;
+        document.querySelector("#infoline > line").y1.baseVal.value =
+          e.target.cy.baseVal.value;
+
+        document.querySelector("#infoline > use").x.baseVal.value =
+          e.target.cx.baseVal.value + xdif;
+
+        document.querySelector("#infoline > line").y2.baseVal.value =
+          document.querySelector("#infoline > use").y.baseVal.value +
+          parseInt(labelHeight);
+
+        document.querySelector("#infoline > line").x2.baseVal.value =
+          document.querySelector("#infoline > line").x1.baseVal.value +
+          xdif +
+          3;
+      }
     });
   }
 }
@@ -55,9 +92,6 @@ function popUpShow(movie) {
       "href",
       `images/${myMovie.poster}`
     );
-
-  let xdif = 10;
-  let ydif = 10;
 }
 
 loadSVG();
